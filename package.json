@@ -29,6 +29,7 @@
     "@ng-bootstrap/ng-bootstrap": "^11.0.0",
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
+    "@popperjs/core": "^2.11.2",
     "bootstrap": "^4.6.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",

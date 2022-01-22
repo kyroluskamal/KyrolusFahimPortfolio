@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { faStackOverflow, faGithub, faLinkedin, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
+import { TranslationService } from 'src/Services/translation.service';
 
 @Component({
   selector: 'app-root',
@@ -15,4 +16,8 @@ export class AppComponent
   faStackOverflow = faStackOverflow;
 
   active = 1;
+
+  constructor(public translate: TranslationService)
+  {
+  }
 }
